@@ -124,7 +124,7 @@
     font-family: 'Times New Roman', Times, serif;
     /* width:100vw;
     height:100vh; */
-    height: auto;
+    min-height: 300vh;
     margin: 0%;
     background-color: hsl(30, 54%, 90%);
     display: flex;
@@ -136,11 +136,11 @@
  
  .container {
   position: absolute;
-  top: 100%;
+  top: 150%;
   left: 50%;
   transform:translate(-50%,-50%);
-  max-height: 400vh;
-  width:40vw;
+  min-height: auto;
+  width:60vw;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;

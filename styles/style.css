@@ -136,7 +136,7 @@
  
  .container {
   position: absolute;
-  top: 150%;
+  top: 120%;
   left: 50%;
   transform:translate(-50%,-50%);
   min-height: auto;
@@ -223,7 +223,7 @@ p {
    display:flex;
    flex-direction: row;
    justify-content: space-between;
-   align-items: baseline;
+   align-items: flex-end;
    background-color: hsl(0, 0%, 100%);
  }
 
